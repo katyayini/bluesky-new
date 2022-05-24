@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Quiz Challenge</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <button class="p1">View Highscores</button>
+        </div>
+
+        <div>
+            <p class="n1 timer">Time: </p>
+        </div>
+    </header>
+
+    <main>
+        <div class="start-quiz box">
+            <h1>Coding Quiz Challenge </h1>
+            <p class="para">Try to answer the following code-related questions within the time limit. Keep in mind that
+                incorrect answers penalize your score time by ten seconds!</p><br>
+            <button class="btn">Start Quiz</button>
+        </div>
+
+        <div class="question n1 box">
+            <p class="ques">Commonly used data types DO NOT include:</p>
+            <ul>
+                <li><button class="btn">1. strings</button></li>
+                <li> <button class="btn">2. booleans</button></li>
+                <li><button class="btn">3. alerts</button> </li>
+                <li> <button class="btn">4. numbers</button> </li>
+            </ul>
+
+        </div>
+        <div class="question n1 box">
+            <p class="ques">The condition in an if / else statement is enclosed within ______.</p>
+            <ul>
+                <li><button class="btn">1. quotes</button></li>
+                <li><button class="btn">2. curly brackets</button></li>
+                <li><button class="btn">3. parenthesis</button></li>
+                <li><button class="btn">4. square brackets</button></li>
+            </ul>
+
+        </div>
+        <div class="question n1 box">
+            <p class="ques">Arrays in JavaScript can be used to store ______.</p>
+            <ul>
+                <li><button class="btn">1. numbers and strings</button></li>
+                <li><button class="btn">2. other arrays</button></li>
+                <li><button class="btn">3. booleans</button></li>
+                <li><button class="btn">4. all of the above</button></li>
+            </ul>
+        </div>
+        <div class="question n1 box">
+            <p class="ques">String values must be enclosed within ______ when being assigned to variables.</p>
+            <ul>
+                <li><button class="btn">1. commas</button></li>
+                <li><button class="btn">2. curly brackets</button></li>
+                <li><button class="btn">3. quotes</button></li>
+                <li><button class="btn">4. parenthesis</button></li>
+            </ul>
+        </div>
+
+        <div class="question n1 box">
+            <p class="ques">A very useful tool during development and debugging for printing content to the debugger</p>
+            <ul>
+                <li><button class="btn">1. Javascript</button></li>
+                <li><button class="btn">2. terminal/Bash</button></li>
+                <li><button class="btn">3. for loops</button></li>
+                <li><button class="btn">4. console.log</button></li>
+            </ul>
+        </div>
+
+        <div class="correct result n1">
+            <p>Correct!</p>
+        </div>
+
+        <div class="wrong result n1">
+            <p>Wrong!</p>
+        </div>
+
+        <div class="n1 box done">
+            <p class="para1">All done! </p> <br><br>
+            <p class="para p2">Your final score is </p> <br><br>
+
+            <label for="cred" class="para">Enter initials:</label>
+            <input type="text" id="cred" name="cred" value="">
+            <button class="btn">Submit</button>
+            <!--<input type="submit" class="btn" value="Submit">-->
+
+        </div>
+        <div class="n1 box highscores">
+            <p class="para1 p3">Highscores</p> <br><br>
+            <ul>
+                <li class="hs-list"><button class="btn">Go Back</button></li>
+                <li class="hs-list"><button class="btn">Clear Highscores</button></li>
+            </ul>
+        </div>
+
+
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

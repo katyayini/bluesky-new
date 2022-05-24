@@ -1,0 +1,97 @@
+/*Universal selector*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Tag selectors*/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/*Class selectors*/
+.start-quiz {
+    text-align: center;
+}
+
+.question {
+    text-align: left;
+
+}
+
+
+.ques {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.para1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.btn {
+    background-color: rgb(104, 1, 104);
+    margin: 2px;
+    color: white;
+    border: 1px solid rgb(104, 1, 104);
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.para {
+    font-size: 14px;
+}
+
+.hs-list {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+.n1 {
+    /*Display none for other boxes when first box appears*/
+    display: none;
+}
+
+.box {
+    /*For sizing each box*/
+    height: 250px;
+    width: 480px;
+}
+
+.result {
+    font-style: italic;
+    color: gray;
+    height: 50px;
+    width: 480px;
+    border-top: 2px ridge #e0e0d1;
+
+}
+
+.p1 {
+    color: rgb(104, 1, 104);
+    background-color: white;
+    border: 0px white;
+}
