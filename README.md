@@ -9,4 +9,5 @@ This application is a timed coding quiz on JavaScript fundamentals that stores h
 ![](Assets/QuizScreenshot.JPG)
 
 ## Link to deploy the application
+https://katyayini.github.io/bluesky-new/
 
